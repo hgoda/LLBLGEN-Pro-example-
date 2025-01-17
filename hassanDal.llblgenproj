@@ -1,0 +1,1474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.11 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.11" TargetFrameworkName="Entity Framework Core v8" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="AutomaticallyGenerateSourceCodeOnProjectSave" Value="true" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="ConnectionString.{$ProviderName}" />
+    <Property Name="DefaultDDLSQLScriptDestinationFolder" Value=".\DDLSQLScripts" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultSourceCodeDestinationFolder" Value=".\CodeHassanDal" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="DeleteObsoleteFiles" Value="true" />
+    <Property Name="ElementNamePrefixPattern" Value="{$SchemaName}" />
+    <Property Name="ElementNamePrefixPatternIsAppliedWhen" Value="1" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="ha" />
+    <Property Name="ProjectName" Value="hassanDal" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncCustomFieldOrderingWithTableFieldIndex" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value=".\CodeHassan" />
+        <FrameworkName Value="Entity Framework Core v8" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET 8" />
+        <PresetName Value="SD.EntityFramework.Core v8" />
+        <RootNamespace Value="hassanDal" />
+        <TemplateGroup Value="General" />
+        <TemplateBindings>
+          <Binding Name="SD.EntityFramework.Core.v8.SqlServer" />
+          <Binding Name="SD.EntityFramework.Core v8" />
+          <Binding Name="SD.EntityFramework.NET8" />
+          <Binding Name="SD.EntityFramework.Shared" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <CodeGenerationMetaDataDefaults />
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="AspNetRole" GroupName="haTable" ObjectID="0b889a66-04d7-4faa-aefe-b532388f50d5">
+        <Fields>
+          <Field Name="ConcurrencyStamp" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Id" Type="string" MaxLength="450" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="256" />
+          <Field Name="NormalizedName" Type="string" IsOptional="true" MaxLength="256" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AspNetRoleClaim" GroupName="haTable" ObjectID="cd77d4f6-ba38-4e1f-888e-d7275c537261">
+        <Fields>
+          <Field Name="ClaimType" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="ClaimValue" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" />
+          <Field Name="RoleId" Type="string" MaxLength="450" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AspNetUser" GroupName="haTable" ObjectID="c3aca9e3-7b11-4225-81a9-d69e1899bd33">
+        <Fields>
+          <Field Name="AccessFailedCount" Type="int" Precision="10" />
+          <Field Name="ConcurrencyStamp" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Email" Type="string" IsOptional="true" MaxLength="256" />
+          <Field Name="EmailConfirmed" Type="bool" />
+          <Field Name="Id" Type="string" MaxLength="450" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" />
+          <Field Name="LockoutEnabled" Type="bool" />
+          <Field Name="LockoutEnd" Type="datetimeoffset" IsOptional="true" />
+          <Field Name="NormalizedEmail" Type="string" IsOptional="true" MaxLength="256" />
+          <Field Name="NormalizedUserName" Type="string" IsOptional="true" MaxLength="256" />
+          <Field Name="PasswordHash" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="PhoneNumber" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="PhoneNumberConfirmed" Type="bool" />
+          <Field Name="SecurityStamp" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="TwoFactorEnabled" Type="bool" />
+          <Field Name="UserName" Type="string" IsOptional="true" MaxLength="256" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AspNetUserClaim" GroupName="haTable" ObjectID="5d9d71f6-9fdc-4f46-bcbc-296622ebe412">
+        <Fields>
+          <Field Name="ClaimType" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="ClaimValue" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" />
+          <Field Name="UserId" Type="string" MaxLength="450" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AspNetUserLogin" GroupName="haTable" ObjectID="08fc3834-6062-45a6-8907-0aa87bdcc75b">
+        <Fields>
+          <Field Name="IsDeleted" Type="bool" />
+          <Field Name="LoginProvider" Type="string" MaxLength="128" IsPrimaryKey="true" />
+          <Field Name="ProviderDisplayName" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="ProviderKey" Type="string" MaxLength="128" IsPrimaryKey="true" />
+          <Field Name="UserId" Type="string" MaxLength="450" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AspNetUserRole" GroupName="haTable" ObjectID="8dc5e18a-1473-4d66-afba-012aea7b9e0d">
+        <Fields>
+          <Field Name="IsDeleted" Type="bool" />
+          <Field Name="RoleId" Type="string" MaxLength="450" IsPrimaryKey="true" />
+          <Field Name="UserId" Type="string" MaxLength="450" IsPrimaryKey="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="AspNetUserToken" GroupName="haTable" ObjectID="f908d832-ec86-45a1-b958-fdf2693f2db8">
+        <Fields>
+          <Field Name="IsDeleted" Type="bool" />
+          <Field Name="LoginProvider" Type="string" MaxLength="128" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" MaxLength="128" IsPrimaryKey="true" />
+          <Field Name="UserId" Type="string" MaxLength="450" IsPrimaryKey="true" />
+          <Field Name="Value" Type="string" IsOptional="true" MaxLength="2147483647" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="DataReportA03" GroupName="haTable" ObjectID="f0b83dfa-d882-4c7b-9645-4323631cd616">
+        <Fields>
+          <Field Name="ApprovedPlanId" Type="int" Precision="10" />
+          <Field Name="ApprovedPlanNumber" Type="string" MaxLength="2147483647" />
+          <Field Name="AuthorityId" Type="int" Precision="10" />
+          <Field Name="CityId" Type="int" Precision="10" />
+          <Field Name="CommercialPlotCount" Type="int" Precision="10" />
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="GovernmentFacilityCount" Type="int" Precision="10" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="PeriodId" Type="int" Precision="10" />
+          <Field Name="PlanApprovalAuthorityId" Type="int" Precision="10" />
+          <Field Name="PlanApprovalDate" Type="datetime" />
+          <Field Name="PlanApprovalNumber" Type="string" MaxLength="2147483647" />
+          <Field Name="PlanArea" Type="decimal" Precision="18" Scale="2" />
+          <Field Name="PlanStatusId" Type="int" Precision="10" />
+          <Field Name="ProjectTypeId" Type="int" Precision="10" />
+          <Field Name="ResidentialPlotCount" Type="int" Precision="10" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="YearId" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="DataReportA04" GroupName="haTable" ObjectID="97e7e51d-0280-4679-b34c-5e15a44b0811">
+        <Fields>
+          <Field Name="AuthorityId" Type="int" Precision="10" />
+          <Field Name="CityId" Type="int" Precision="10" />
+          <Field Name="CoveredAreaPercentage" Type="decimal" Precision="18" Scale="2" />
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Indicator1" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="Indicator2" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="Indicator3" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="Indicator4" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NamedStreetsCount" Type="int" Precision="10" />
+          <Field Name="NumberedUnitsCount" Type="int" Precision="10" />
+          <Field Name="NumberedUnitsPercentage" Type="decimal" Precision="18" Scale="2" />
+          <Field Name="PeriodId" Type="int" Precision="10" />
+          <Field Name="ProjectStatusId" Type="int" Precision="10" />
+          <Field Name="TotalCoveredArea" Type="decimal" Precision="18" Scale="2" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="YearId" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="DataReportA26" GroupName="haTable" ObjectID="1f7c8021-7fce-4985-9e71-724086393ee1">
+        <Fields>
+          <Field Name="AuthorityId" Type="int" Precision="10" />
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DiffPrevPlannedArea" Type="decimal" Precision="18" Scale="4" />
+          <Field Name="DiffPrevUsedArea" Type="decimal" Precision="18" Scale="4" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Indicator1" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="Indicator2" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="Indicator3" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="Indicator4" Type="single" IsOptional="true" Precision="24" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="OccupationTypeId" Type="int" Precision="10" />
+          <Field Name="PeriodId" Type="int" Precision="10" />
+          <Field Name="PlannedWhiteArea" Type="decimal" Precision="18" Scale="4" />
+          <Field Name="SubAuthorityId" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="UnplannedWhiteArea" Type="decimal" Precision="18" Scale="4" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="UsedArea" Type="decimal" Precision="18" Scale="4" />
+          <Field Name="YearId" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="dboSubYear" GroupName="haTable" ObjectID="aa74668a-404e-44af-9092-2709c91f3e0e">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="Name" Type="int" Precision="10" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="DepartmentAndAgency" GroupName="haTable" ObjectID="b480c165-0361-4f4b-b287-627296986f24">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="Level" Type="string" MaxLength="2147483647" />
+          <Field Name="NameArabic" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEnglish" Type="string" MaxLength="2147483647" />
+          <Field Name="ParentId" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Slug" Type="string" MaxLength="450" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="EfmigrationsHistory" GroupName="haTable" ObjectID="ade41b0c-24ba-404c-8781-e5e5179e6dbe">
+        <Fields>
+          <Field Name="MigrationId" Type="string" MaxLength="150" IsPrimaryKey="true" />
+          <Field Name="ProductVersion" Type="string" MaxLength="32" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubApprovedPlan" GroupName="haTable" ObjectID="1893c617-399e-4c1a-8854-a2815f8d3d4b">
+        <Fields>
+          <Field Name="Code" Type="string" MaxLength="2147483647" />
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubAuthority" GroupName="haTable" ObjectID="d261b595-ede6-45b7-b7fd-bd5f60abb75b">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubCity" GroupName="haTable" ObjectID="cb73367a-ac22-4edc-9f7e-e9cd2db4e40a">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubHalfYear" GroupName="haTable" ObjectID="330d0188-01d1-4ee0-9909-eee65440a40c">
+        <Fields>
+          <Field Name="CreatedAt" Type="datetime" IsOptional="true" />
+          <Field Name="HalfYearId" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="HalfYearName" Type="string" MaxLength="50" />
+          <Field Name="IsActive" Type="bool" />
+          <Field Name="YearId" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubMonth" GroupName="haTable" ObjectID="9dfc906a-a3bf-4314-9082-aa118a7cfaba">
+        <Fields>
+          <Field Name="CreatedAt" Type="datetime" IsOptional="true" />
+          <Field Name="IsActive" Type="bool" />
+          <Field Name="MonthId" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="MonthName" Type="string" MaxLength="50" />
+          <Field Name="QuarterId" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubOccupationType" GroupName="haTable" ObjectID="c26b2f00-1731-4679-8492-5c8f78ea7117">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubPeriod" GroupName="haTable" ObjectID="a2ff4c93-6209-4aa1-aaec-d3e0100538e1">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubPlanApprovalAuthority" GroupName="haTable" ObjectID="73d7cbb1-356b-4459-b6f8-12e2e3c905d2">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubPlanStatus" GroupName="haTable" ObjectID="afe3633c-1992-4442-846f-4f2e6fcfabee">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubProjectStatus" GroupName="haTable" ObjectID="867573f5-6705-49df-b76c-3a8bcb7ce3f4">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubProjectType" GroupName="haTable" ObjectID="36762e2f-5e91-480a-a56c-9b8011d2392e">
+        <Fields>
+          <Field Name="CreatedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="DeletedDate" Type="datetime" IsOptional="true" Precision="7" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsDeleted" Type="bool" IsOptional="true" />
+          <Field Name="NameAr" Type="string" MaxLength="2147483647" />
+          <Field Name="NameEn" Type="string" MaxLength="2147483647" />
+          <Field Name="UpdateedDate" Type="datetime" IsOptional="true" Precision="7" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubQuarter" GroupName="haTable" ObjectID="cc4b48eb-9b94-40e3-a6fb-8b1751f8e484">
+        <Fields>
+          <Field Name="CreatedAt" Type="datetime" IsOptional="true" />
+          <Field Name="HalfYearId" Type="int" Precision="10" />
+          <Field Name="IsActive" Type="bool" />
+          <Field Name="QuarterId" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="QuarterName" Type="string" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubYear" GroupName="haTable" ObjectID="7704c474-a307-4c60-aa1c-47aa9b49752f">
+        <Fields>
+          <Field Name="CreatedAt" Type="datetime" IsOptional="true" />
+          <Field Name="IsActive" Type="bool" />
+          <Field Name="YearId" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="YearName" Type="string" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TimeModel" GroupName="haTable" ObjectID="a32303f0-3b49-456d-a195-7dbc23471a77">
+        <Fields>
+          <Field Name="CreatedAt" Type="datetime" IsOptional="true" />
+          <Field Name="Flag" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="HalfYearId" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="IsActive" Type="bool" />
+          <Field Name="ModelId" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="ModelName" Type="string" MaxLength="50" />
+          <Field Name="MonthId" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="QuarterId" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="UpdatedAt" Type="datetime" IsOptional="true" />
+          <Field Name="YearId" Type="int" IsOptional="true" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships>
+      <NormalRelationship Name="haTable.AspNetRoleClaim.AspNetRole-haTable.AspNetRole.AspNetRoleClaims" Start="haTable:AspNetRoleClaim" End="haTable:AspNetRole" StartNavigator="AspNetRole" EndNavigator="AspNetRoleClaims" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="RoleId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.AspNetUserClaim.AspNetUser-haTable.AspNetUser.AspNetUserClaims" Start="haTable:AspNetUserClaim" End="haTable:AspNetUser" StartNavigator="AspNetUser" EndNavigator="AspNetUserClaims" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="UserId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.AspNetUserLogin.AspNetUser-haTable.AspNetUser.AspNetUserLogins" Start="haTable:AspNetUserLogin" End="haTable:AspNetUser" StartNavigator="AspNetUser" EndNavigator="AspNetUserLogins" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="UserId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.AspNetUserRole.AspNetRole-haTable.AspNetRole.AspNetUserRoles" Start="haTable:AspNetUserRole" End="haTable:AspNetRole" StartNavigator="AspNetRole" EndNavigator="AspNetUserRoles" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="RoleId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.AspNetUserRole.AspNetUser-haTable.AspNetUser.AspNetUserRoles" Start="haTable:AspNetUserRole" End="haTable:AspNetUser" StartNavigator="AspNetUser" EndNavigator="AspNetUserRoles" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="UserId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.AspNetUserToken.AspNetUser-haTable.AspNetUser.AspNetUserTokens" Start="haTable:AspNetUserToken" End="haTable:AspNetUser" StartNavigator="AspNetUser" EndNavigator="AspNetUserTokens" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="UserId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA03.dboSubYear-haTable.dboSubYear.DataReportA03s" Start="haTable:DataReportA03" End="haTable:dboSubYear" StartNavigator="dboSubYear" EndNavigator="DataReportA03s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="YearId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA03.SubApprovedPlan-haTable.SubApprovedPlan.DataReportA03s" Start="haTable:DataReportA03" End="haTable:SubApprovedPlan" StartNavigator="SubApprovedPlan" EndNavigator="DataReportA03s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="ApprovedPlanId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA03.SubAuthority-haTable.SubAuthority.DataReportA03s" Start="haTable:DataReportA03" End="haTable:SubAuthority" StartNavigator="SubAuthority" EndNavigator="DataReportA03s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="AuthorityId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA03.SubCity-haTable.SubCity.DataReportA03s" Start="haTable:DataReportA03" End="haTable:SubCity" StartNavigator="SubCity" EndNavigator="DataReportA03s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CityId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA03.SubPeriod-haTable.SubPeriod.DataReportA03s" Start="haTable:DataReportA03" End="haTable:SubPeriod" StartNavigator="SubPeriod" EndNavigator="DataReportA03s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="PeriodId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA03.SubPlanApprovalAuthority-haTable.SubPlanApprovalAuthority.DataReportA03s" Start="haTable:DataReportA03" End="haTable:SubPlanApprovalAuthority" StartNavigator="SubPlanApprovalAuthority" EndNavigator="DataReportA03s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="PlanApprovalAuthorityId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA03.SubPlanStatus-haTable.SubPlanStatus.DataReportA03s" Start="haTable:DataReportA03" End="haTable:SubPlanStatus" StartNavigator="SubPlanStatus" EndNavigator="DataReportA03s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="PlanStatusId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA03.SubProjectType-haTable.SubProjectType.DataReportA03s" Start="haTable:DataReportA03" End="haTable:SubProjectType" StartNavigator="SubProjectType" EndNavigator="DataReportA03s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="ProjectTypeId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA04.dboSubYear-haTable.dboSubYear.DataReportA04s" Start="haTable:DataReportA04" End="haTable:dboSubYear" StartNavigator="dboSubYear" EndNavigator="DataReportA04s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="YearId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA04.SubAuthority-haTable.SubAuthority.DataReportA04s" Start="haTable:DataReportA04" End="haTable:SubAuthority" StartNavigator="SubAuthority" EndNavigator="DataReportA04s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="AuthorityId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA04.SubCity-haTable.SubCity.DataReportA04s" Start="haTable:DataReportA04" End="haTable:SubCity" StartNavigator="SubCity" EndNavigator="DataReportA04s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CityId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA04.SubPeriod-haTable.SubPeriod.DataReportA04s" Start="haTable:DataReportA04" End="haTable:SubPeriod" StartNavigator="SubPeriod" EndNavigator="DataReportA04s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="PeriodId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA04.SubProjectStatus-haTable.SubProjectStatus.DataReportA04s" Start="haTable:DataReportA04" End="haTable:SubProjectStatus" StartNavigator="SubProjectStatus" EndNavigator="DataReportA04s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="ProjectStatusId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA26.dboSubYear-haTable.dboSubYear.DataReportA26s" Start="haTable:DataReportA26" End="haTable:dboSubYear" StartNavigator="dboSubYear" EndNavigator="DataReportA26s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="YearId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA26.SubAuthority-haTable.SubAuthority.DataReportA26s" Start="haTable:DataReportA26" End="haTable:SubAuthority" StartNavigator="SubAuthority" EndNavigator="DataReportA26s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="AuthorityId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA26.SubAuthority1-haTable.SubAuthority.DataReportA26s1" Start="haTable:DataReportA26" End="haTable:SubAuthority" StartNavigator="SubAuthority1" EndNavigator="DataReportA26s1" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="SubAuthorityId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA26.SubOccupationType-haTable.SubOccupationType.DataReportA26s" Start="haTable:DataReportA26" End="haTable:SubOccupationType" StartNavigator="SubOccupationType" EndNavigator="DataReportA26s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="OccupationTypeId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DataReportA26.SubPeriod-haTable.SubPeriod.DataReportA26s" Start="haTable:DataReportA26" End="haTable:SubPeriod" StartNavigator="SubPeriod" EndNavigator="DataReportA26s" Type="4" DeleteRuleAction="1">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="PeriodId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.DepartmentAndAgency.DepartmentAndAgency-haTable.DepartmentAndAgency.DepartmentAndAgencies" Start="haTable:DepartmentAndAgency" End="haTable:DepartmentAndAgency" StartNavigator="DepartmentAndAgency" EndNavigator="DepartmentAndAgencies" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="ParentId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.SubHalfYear.SubYear-haTable.SubYear.SubHalfYears" Start="haTable:SubHalfYear" End="haTable:SubYear" StartNavigator="SubYear" EndNavigator="SubHalfYears" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="YearId" PkField="YearId" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.SubMonth.SubQuarter-haTable.SubQuarter.SubMonths" Start="haTable:SubMonth" End="haTable:SubQuarter" StartNavigator="SubQuarter" EndNavigator="SubMonths" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="QuarterId" PkField="QuarterId" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.SubQuarter.SubHalfYear-haTable.SubHalfYear.SubQuarters" Start="haTable:SubQuarter" End="haTable:SubHalfYear" StartNavigator="SubHalfYear" EndNavigator="SubQuarters" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="HalfYearId" PkField="HalfYearId" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.TimeModel.SubHalfYear-haTable.SubHalfYear.TimeModels" Start="haTable:TimeModel" End="haTable:SubHalfYear" StartNavigator="SubHalfYear" EndNavigator="TimeModels" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="HalfYearId" PkField="HalfYearId" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.TimeModel.SubMonth-haTable.SubMonth.TimeModels" Start="haTable:TimeModel" End="haTable:SubMonth" StartNavigator="SubMonth" EndNavigator="TimeModels" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="MonthId" PkField="MonthId" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.TimeModel.SubQuarter-haTable.SubQuarter.TimeModels" Start="haTable:TimeModel" End="haTable:SubQuarter" StartNavigator="SubQuarter" EndNavigator="TimeModels" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="QuarterId" PkField="QuarterId" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="haTable.TimeModel.SubYear-haTable.SubYear.TimeModels" Start="haTable:TimeModel" End="haTable:SubYear" StartNavigator="SubYear" EndNavigator="TimeModels" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="YearId" PkField="YearId" />
+        </FieldRelationships>
+      </NormalRelationship>
+    </Relationships>
+    <InheritanceHierarchies />
+  </EntityModel>
+  <TargetDatabases>
+    <TargetDatabase Type="2D18D138-1DD2-467E-86CC-4838250611AE" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="Localhost " />
+        <ConnectionElement Name="CatalogName" Value="master" />
+        <ConnectionElement Name="UseWindowsAuthentication" Value="true" />
+        <ConnectionElement Name="UserID" Value="" />
+        <ConnectionElement Name="Password" Value="" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SCOPE_IDENTITY()" />
+        <Sequence Name="@@IDENTITY" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="amanna" SyncSource="2">
+          <Schemas>
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2025-01-17T06:37:17.3448351Z">
+              <Tables>
+                <Table Name="__EFMigrationsHistory">
+                  <PkConstraintName Name="PK___EFMigrationsHistory" />
+                  <Fields>
+                    <Field Name="MigrationId" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="150" />
+                    <Field Name="ProductVersion" Ordinal="2" DbType="12" Length="32" />
+                  </Fields>
+                </Table>
+                <Table Name="AspNetRoleClaims">
+                  <PkConstraintName Name="PK_AspNetRoleClaims" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="RoleId" Ordinal="2" DbType="12" Length="450" />
+                    <Field Name="ClaimType" Ordinal="3" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="ClaimValue" Ordinal="4" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="IsDeleted" Ordinal="5" HasDefaultValue="true" DefaultValue="CONVERT([bit],(0))" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="AspNetRoles">
+                  <PkConstraintName Name="PK_AspNetRoles" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="450" />
+                    <Field Name="IsDeleted" Ordinal="2" HasDefaultValue="true" DefaultValue="CONVERT([bit],(0))" DbType="2" />
+                    <Field Name="Name" Ordinal="3" IsOptional="true" DbType="12" Length="256" />
+                    <Field Name="NormalizedName" Ordinal="4" IsOptional="true" DbType="12" Length="256" />
+                    <Field Name="ConcurrencyStamp" Ordinal="5" IsOptional="true" DbType="12" Length="2147483647" />
+                  </Fields>
+                </Table>
+                <Table Name="AspNetUserClaims">
+                  <PkConstraintName Name="PK_AspNetUserClaims" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="UserId" Ordinal="2" DbType="12" Length="450" />
+                    <Field Name="ClaimType" Ordinal="3" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="ClaimValue" Ordinal="4" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="IsDeleted" Ordinal="5" HasDefaultValue="true" DefaultValue="CONVERT([bit],(0))" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="AspNetUserLogins">
+                  <PkConstraintName Name="PK_AspNetUserLogins" />
+                  <Fields>
+                    <Field Name="LoginProvider" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="128" />
+                    <Field Name="ProviderKey" Ordinal="2" IsPrimaryKey="true" DbType="12" Length="128" />
+                    <Field Name="ProviderDisplayName" Ordinal="3" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="UserId" Ordinal="4" DbType="12" Length="450" />
+                    <Field Name="IsDeleted" Ordinal="5" HasDefaultValue="true" DefaultValue="CONVERT([bit],(0))" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="AspNetUserRoles">
+                  <PkConstraintName Name="PK_AspNetUserRoles" />
+                  <Fields>
+                    <Field Name="UserId" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="450" />
+                    <Field Name="RoleId" Ordinal="2" IsPrimaryKey="true" DbType="12" Length="450" />
+                    <Field Name="IsDeleted" Ordinal="3" HasDefaultValue="true" DefaultValue="CONVERT([bit],(0))" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="AspNetUsers">
+                  <PkConstraintName Name="PK_AspNetUsers" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="450" />
+                    <Field Name="IsDeleted" Ordinal="2" HasDefaultValue="true" DefaultValue="CONVERT([bit],(0))" DbType="2" />
+                    <Field Name="UserName" Ordinal="3" IsOptional="true" DbType="12" Length="256" />
+                    <Field Name="NormalizedUserName" Ordinal="4" IsOptional="true" DbType="12" Length="256" />
+                    <Field Name="Email" Ordinal="5" IsOptional="true" DbType="12" Length="256" />
+                    <Field Name="NormalizedEmail" Ordinal="6" IsOptional="true" DbType="12" Length="256" />
+                    <Field Name="EmailConfirmed" Ordinal="7" DbType="2" />
+                    <Field Name="PasswordHash" Ordinal="8" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="SecurityStamp" Ordinal="9" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="ConcurrencyStamp" Ordinal="10" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="PhoneNumber" Ordinal="11" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="PhoneNumberConfirmed" Ordinal="12" DbType="2" />
+                    <Field Name="TwoFactorEnabled" Ordinal="13" DbType="2" />
+                    <Field Name="LockoutEnd" Ordinal="14" IsOptional="true" DbType="30" />
+                    <Field Name="LockoutEnabled" Ordinal="15" DbType="2" />
+                    <Field Name="AccessFailedCount" Ordinal="16" DbType="8" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="AspNetUserTokens">
+                  <PkConstraintName Name="PK_AspNetUserTokens" />
+                  <Fields>
+                    <Field Name="UserId" Ordinal="1" IsPrimaryKey="true" DbType="12" Length="450" />
+                    <Field Name="LoginProvider" Ordinal="2" IsPrimaryKey="true" DbType="12" Length="128" />
+                    <Field Name="Name" Ordinal="3" IsPrimaryKey="true" DbType="12" Length="128" />
+                    <Field Name="Value" Ordinal="4" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="IsDeleted" Ordinal="5" HasDefaultValue="true" DefaultValue="CONVERT([bit],(0))" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="DataReportA03">
+                  <PkConstraintName Name="PK_DataReportA03" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="AuthorityID" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="YearID" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="PeriodID" Ordinal="4" DbType="8" Precision="10" />
+                    <Field Name="CityID" Ordinal="5" DbType="8" Precision="10" />
+                    <Field Name="ApprovedPlanID" Ordinal="6" DbType="8" Precision="10" />
+                    <Field Name="ApprovedPlanNumber" Ordinal="7" DbType="12" Length="2147483647" />
+                    <Field Name="PlanArea" Ordinal="8" DbType="5" Precision="18" Scale="2" />
+                    <Field Name="PlanApprovalNumber" Ordinal="9" DbType="12" Length="2147483647" />
+                    <Field Name="PlanApprovalDate" Ordinal="10" DbType="28" />
+                    <Field Name="PlanApprovalAuthorityID" Ordinal="11" DbType="8" Precision="10" />
+                    <Field Name="PlanStatusID" Ordinal="12" DbType="8" Precision="10" />
+                    <Field Name="ProjectTypeID" Ordinal="13" DbType="8" Precision="10" />
+                    <Field Name="ResidentialPlotCount" Ordinal="14" DbType="8" Precision="10" />
+                    <Field Name="CommercialPlotCount" Ordinal="15" DbType="8" Precision="10" />
+                    <Field Name="GovernmentFacilityCount" Ordinal="16" DbType="8" Precision="10" />
+                    <Field Name="CreatedDate" Ordinal="17" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="18" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="19" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="20" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="DataReportA04">
+                  <PkConstraintName Name="PK_DataReportA04" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="AuthorityID" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="YearID" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="PeriodID" Ordinal="4" DbType="8" Precision="10" />
+                    <Field Name="CityID" Ordinal="5" DbType="8" Precision="10" />
+                    <Field Name="ProjectStatusID" Ordinal="6" DbType="8" Precision="10" />
+                    <Field Name="NamedStreetsCount" Ordinal="7" DbType="8" Precision="10" />
+                    <Field Name="NumberedUnitsCount" Ordinal="8" DbType="8" Precision="10" />
+                    <Field Name="NumberedUnitsPercentage" Ordinal="9" DbType="5" Precision="18" Scale="2" />
+                    <Field Name="TotalCoveredArea" Ordinal="10" DbType="5" Precision="18" Scale="2" />
+                    <Field Name="CoveredAreaPercentage" Ordinal="11" DbType="5" Precision="18" Scale="2" />
+                    <Field Name="Indicator1" Ordinal="12" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="Indicator2" Ordinal="13" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="Indicator3" Ordinal="14" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="Indicator4" Ordinal="15" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="CreatedDate" Ordinal="16" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="17" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="18" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="19" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="DataReportA26">
+                  <PkConstraintName Name="PK_DataReportA26" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="AuthorityID" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="YearID" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="PeriodID" Ordinal="4" DbType="8" Precision="10" />
+                    <Field Name="OccupationTypeID" Ordinal="5" DbType="8" Precision="10" />
+                    <Field Name="UsedArea" Ordinal="6" DbType="5" Precision="18" Scale="4" />
+                    <Field Name="PlannedWhiteArea" Ordinal="7" DbType="5" Precision="18" Scale="4" />
+                    <Field Name="UnplannedWhiteArea" Ordinal="8" DbType="5" Precision="18" Scale="4" />
+                    <Field Name="DiffPrevUsedArea" Ordinal="9" DbType="5" Precision="18" Scale="4" />
+                    <Field Name="DiffPrevPlannedArea" Ordinal="10" DbType="5" Precision="18" Scale="4" />
+                    <Field Name="Indicator1" Ordinal="11" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="Indicator2" Ordinal="12" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="Indicator3" Ordinal="13" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="Indicator4" Ordinal="14" IsOptional="true" DbType="14" Precision="24" />
+                    <Field Name="SubAuthorityId" Ordinal="15" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="CreatedDate" Ordinal="16" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="17" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="18" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="19" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="DepartmentAndAgencies">
+                  <PkConstraintName Name="PK_DepartmentAndAgencies" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="ParentId" Ordinal="2" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="NameArabic" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="NameEnglish" Ordinal="4" DbType="12" Length="2147483647" />
+                    <Field Name="Slug" Ordinal="5" DbType="12" Length="450" />
+                    <Field Name="Level" Ordinal="6" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="7" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="8" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="9" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="10" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubApprovedPlan">
+                  <PkConstraintName Name="PK_SubApprovedPlan" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Code" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameAr" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="4" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="7" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="8" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubAuthority">
+                  <PkConstraintName Name="PK_SubAuthority" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NameAr" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="7" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubCity">
+                  <PkConstraintName Name="PK_SubCity" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NameAr" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="7" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubHalfYear">
+                  <PkConstraintName Name="PK__SubHalfY__460E4163059620A0" />
+                  <Fields>
+                    <Field Name="HalfYearID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="HalfYearName" Ordinal="2" DbType="12" Length="50" />
+                    <Field Name="YearID" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="CreatedAt" Ordinal="4" IsOptional="true" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="IsActive" Ordinal="5" HasDefaultValue="true" DefaultValue="1" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubMonth">
+                  <PkConstraintName Name="PK__SubMonth__9FA83F86F02C627E" />
+                  <Fields>
+                    <Field Name="MonthID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="MonthName" Ordinal="2" DbType="12" Length="50" />
+                    <Field Name="QuarterID" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="CreatedAt" Ordinal="4" IsOptional="true" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="IsActive" Ordinal="5" HasDefaultValue="true" DefaultValue="1" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="subOccupationTypes">
+                  <PkConstraintName Name="PK_subOccupationTypes" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NameAr" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="7" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubPeriods">
+                  <PkConstraintName Name="PK_SubPeriods" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NameAr" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="7" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubPlanApprovalAuthority">
+                  <PkConstraintName Name="PK_SubPlanApprovalAuthority" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NameAr" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="7" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubPlanStatus">
+                  <PkConstraintName Name="PK_SubPlanStatus" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NameAr" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="7" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubProjectStatus">
+                  <PkConstraintName Name="PK_SubProjectStatus" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NameAr" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="7" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubProjectType">
+                  <PkConstraintName Name="PK_SubProjectType" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NameAr" Ordinal="2" DbType="12" Length="2147483647" />
+                    <Field Name="NameEn" Ordinal="3" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="6" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="7" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubQuarter">
+                  <PkConstraintName Name="PK__SubQuart__1D2BD1822A78146F" />
+                  <Fields>
+                    <Field Name="QuarterID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="QuarterName" Ordinal="2" DbType="12" Length="50" />
+                    <Field Name="HalfYearID" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="CreatedAt" Ordinal="4" IsOptional="true" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="IsActive" Ordinal="5" HasDefaultValue="true" DefaultValue="1" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubYear">
+                  <PkConstraintName Name="PK__SubYear__C33A18ADAA6A0F94" />
+                  <Fields>
+                    <Field Name="YearID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="YearName" Ordinal="2" DbType="12" Length="50" />
+                    <Field Name="CreatedAt" Ordinal="3" IsOptional="true" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="IsActive" Ordinal="4" HasDefaultValue="true" DefaultValue="1" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="SubYears">
+                  <PkConstraintName Name="PK_SubYears" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="Name" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="CreatedDate" Ordinal="3" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="UpdateedDate" Ordinal="4" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="DeletedDate" Ordinal="5" IsOptional="true" DbType="29" Precision="7" />
+                    <Field Name="IsDeleted" Ordinal="6" IsOptional="true" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="TimeModels">
+                  <PkConstraintName Name="PK__TimeMode__E8D7A1CC74E30980" />
+                  <Fields>
+                    <Field Name="ModelID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="ModelName" Ordinal="2" DbType="12" Length="50" />
+                    <Field Name="YearID" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="HalfYearID" Ordinal="4" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="QuarterID" Ordinal="5" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="MonthID" Ordinal="6" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="Flag" Ordinal="7" IsOptional="true" DbType="12" Length="50" />
+                    <Field Name="CreatedAt" Ordinal="8" IsOptional="true" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="UpdatedAt" Ordinal="9" IsOptional="true" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="IsActive" Ordinal="10" HasDefaultValue="true" DefaultValue="1" DbType="2" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+          </Schemas>
+          <ForeignKeyConstraints>
+            <ForeignKeyConstraint Name="dbo:AspNetRoleClaims:FK_AspNetRoleClaims_AspNetRoles_RoleId" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:AspNetRoles:Id" FkField="dbo:AspNetRoleClaims:RoleId" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AspNetUserClaims:FK_AspNetUserClaims_AspNetUsers_UserId" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:AspNetUsers:Id" FkField="dbo:AspNetUserClaims:UserId" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AspNetUserLogins:FK_AspNetUserLogins_AspNetUsers_UserId" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:AspNetUsers:Id" FkField="dbo:AspNetUserLogins:UserId" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AspNetUserRoles:FK_AspNetUserRoles_AspNetRoles_RoleId" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:AspNetRoles:Id" FkField="dbo:AspNetUserRoles:RoleId" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AspNetUserRoles:FK_AspNetUserRoles_AspNetUsers_UserId" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:AspNetUsers:Id" FkField="dbo:AspNetUserRoles:UserId" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:AspNetUserTokens:FK_AspNetUserTokens_AspNetUsers_UserId" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:AspNetUsers:Id" FkField="dbo:AspNetUserTokens:UserId" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA03:FK_DataReportA03_SubApprovedPlan_ApprovedPlanID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubApprovedPlan:Id" FkField="dbo:DataReportA03:ApprovedPlanID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA03:FK_DataReportA03_SubAuthority_AuthorityID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubAuthority:Id" FkField="dbo:DataReportA03:AuthorityID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA03:FK_DataReportA03_SubCity_CityID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubCity:Id" FkField="dbo:DataReportA03:CityID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA03:FK_DataReportA03_SubPeriods_PeriodID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubPeriods:Id" FkField="dbo:DataReportA03:PeriodID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA03:FK_DataReportA03_SubPlanApprovalAuthority_PlanApprovalAuthorityID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubPlanApprovalAuthority:Id" FkField="dbo:DataReportA03:PlanApprovalAuthorityID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA03:FK_DataReportA03_SubPlanStatus_PlanStatusID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubPlanStatus:Id" FkField="dbo:DataReportA03:PlanStatusID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA03:FK_DataReportA03_SubProjectType_ProjectTypeID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubProjectType:Id" FkField="dbo:DataReportA03:ProjectTypeID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA03:FK_DataReportA03_SubYears_YearID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubYears:Id" FkField="dbo:DataReportA03:YearID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA04:FK_DataReportA04_SubAuthority_AuthorityID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubAuthority:Id" FkField="dbo:DataReportA04:AuthorityID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA04:FK_DataReportA04_SubCity_CityID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubCity:Id" FkField="dbo:DataReportA04:CityID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA04:FK_DataReportA04_SubPeriods_PeriodID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubPeriods:Id" FkField="dbo:DataReportA04:PeriodID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA04:FK_DataReportA04_SubProjectStatus_ProjectStatusID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubProjectStatus:Id" FkField="dbo:DataReportA04:ProjectStatusID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA04:FK_DataReportA04_SubYears_YearID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubYears:Id" FkField="dbo:DataReportA04:YearID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA26:FK_DataReportA26_SubAuthority_AuthorityID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubAuthority:Id" FkField="dbo:DataReportA26:AuthorityID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA26:FK_DataReportA26_SubAuthority_SubAuthorityId">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubAuthority:Id" FkField="dbo:DataReportA26:SubAuthorityId" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA26:FK_DataReportA26_subOccupationTypes_OccupationTypeID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:subOccupationTypes:Id" FkField="dbo:DataReportA26:OccupationTypeID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA26:FK_DataReportA26_SubPeriods_PeriodID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubPeriods:Id" FkField="dbo:DataReportA26:PeriodID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DataReportA26:FK_DataReportA26_SubYears_YearID" DeleteRuleAction="1">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubYears:Id" FkField="dbo:DataReportA26:YearID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:DepartmentAndAgencies:FK_DepartmentAndAgencies_DepartmentAndAgencies_ParentId">
+              <FieldPairs>
+                <FieldPair PkField="dbo:DepartmentAndAgencies:Id" FkField="dbo:DepartmentAndAgencies:ParentId" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:SubHalfYear:FK__SubHalfYe__YearI__29221CFB">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubYear:YearID" FkField="dbo:SubHalfYear:YearID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:SubMonth:FK__SubMonth__Quarte__32AB8735">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubQuarter:QuarterID" FkField="dbo:SubMonth:QuarterID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:SubQuarter:FK__SubQuarte__HalfY__2DE6D218">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubHalfYear:HalfYearID" FkField="dbo:SubQuarter:HalfYearID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:TimeModels:FK__TimeModel__HalfY__395884C4">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubHalfYear:HalfYearID" FkField="dbo:TimeModels:HalfYearID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:TimeModels:FK__TimeModel__Month__3B40CD36">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubMonth:MonthID" FkField="dbo:TimeModels:MonthID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:TimeModels:FK__TimeModel__Quart__3A4CA8FD">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubQuarter:QuarterID" FkField="dbo:TimeModels:QuarterID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:TimeModels:FK__TimeModel__YearI__3864608B">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubYear:YearID" FkField="dbo:TimeModels:YearID" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+          </ForeignKeyConstraints>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="2D18D138-1DD2-467E-86CC-4838250611AE">
+      <EntityMappings>
+        <EntityMapping EntityName="haTable:AspNetRole" TargetName="amanna:dbo:AspNetRoles">
+          <FieldMappings>
+            <FieldMapping FieldName="ConcurrencyStamp" TargetFieldName="ConcurrencyStamp" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="Name" TargetFieldName="Name" />
+            <FieldMapping FieldName="NormalizedName" TargetFieldName="NormalizedName" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:AspNetRoleClaim" TargetName="amanna:dbo:AspNetRoleClaims">
+          <FieldMappings>
+            <FieldMapping FieldName="ClaimType" TargetFieldName="ClaimType" />
+            <FieldMapping FieldName="ClaimValue" TargetFieldName="ClaimValue" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="RoleId" TargetFieldName="RoleId" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:AspNetUser" TargetName="amanna:dbo:AspNetUsers">
+          <FieldMappings>
+            <FieldMapping FieldName="AccessFailedCount" TargetFieldName="AccessFailedCount" />
+            <FieldMapping FieldName="ConcurrencyStamp" TargetFieldName="ConcurrencyStamp" />
+            <FieldMapping FieldName="Email" TargetFieldName="Email" />
+            <FieldMapping FieldName="EmailConfirmed" TargetFieldName="EmailConfirmed" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="LockoutEnabled" TargetFieldName="LockoutEnabled" />
+            <FieldMapping FieldName="LockoutEnd" TargetFieldName="LockoutEnd" />
+            <FieldMapping FieldName="NormalizedEmail" TargetFieldName="NormalizedEmail" />
+            <FieldMapping FieldName="NormalizedUserName" TargetFieldName="NormalizedUserName" />
+            <FieldMapping FieldName="PasswordHash" TargetFieldName="PasswordHash" />
+            <FieldMapping FieldName="PhoneNumber" TargetFieldName="PhoneNumber" />
+            <FieldMapping FieldName="PhoneNumberConfirmed" TargetFieldName="PhoneNumberConfirmed" />
+            <FieldMapping FieldName="SecurityStamp" TargetFieldName="SecurityStamp" />
+            <FieldMapping FieldName="TwoFactorEnabled" TargetFieldName="TwoFactorEnabled" />
+            <FieldMapping FieldName="UserName" TargetFieldName="UserName" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:AspNetUserClaim" TargetName="amanna:dbo:AspNetUserClaims">
+          <FieldMappings>
+            <FieldMapping FieldName="ClaimType" TargetFieldName="ClaimType" />
+            <FieldMapping FieldName="ClaimValue" TargetFieldName="ClaimValue" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="UserId" TargetFieldName="UserId" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:AspNetUserLogin" TargetName="amanna:dbo:AspNetUserLogins">
+          <FieldMappings>
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="LoginProvider" TargetFieldName="LoginProvider" />
+            <FieldMapping FieldName="ProviderDisplayName" TargetFieldName="ProviderDisplayName" />
+            <FieldMapping FieldName="ProviderKey" TargetFieldName="ProviderKey" />
+            <FieldMapping FieldName="UserId" TargetFieldName="UserId" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:AspNetUserRole" TargetName="amanna:dbo:AspNetUserRoles">
+          <FieldMappings>
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="RoleId" TargetFieldName="RoleId" />
+            <FieldMapping FieldName="UserId" TargetFieldName="UserId" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:AspNetUserToken" TargetName="amanna:dbo:AspNetUserTokens">
+          <FieldMappings>
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="LoginProvider" TargetFieldName="LoginProvider" />
+            <FieldMapping FieldName="Name" TargetFieldName="Name" />
+            <FieldMapping FieldName="UserId" TargetFieldName="UserId" />
+            <FieldMapping FieldName="Value" TargetFieldName="Value" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:DataReportA03" TargetName="amanna:dbo:DataReportA03">
+          <FieldMappings>
+            <FieldMapping FieldName="ApprovedPlanId" TargetFieldName="ApprovedPlanID" />
+            <FieldMapping FieldName="ApprovedPlanNumber" TargetFieldName="ApprovedPlanNumber" />
+            <FieldMapping FieldName="AuthorityId" TargetFieldName="AuthorityID" />
+            <FieldMapping FieldName="CityId" TargetFieldName="CityID" />
+            <FieldMapping FieldName="CommercialPlotCount" TargetFieldName="CommercialPlotCount" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="GovernmentFacilityCount" TargetFieldName="GovernmentFacilityCount" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="PeriodId" TargetFieldName="PeriodID" />
+            <FieldMapping FieldName="PlanApprovalAuthorityId" TargetFieldName="PlanApprovalAuthorityID" />
+            <FieldMapping FieldName="PlanApprovalDate" TargetFieldName="PlanApprovalDate" />
+            <FieldMapping FieldName="PlanApprovalNumber" TargetFieldName="PlanApprovalNumber" />
+            <FieldMapping FieldName="PlanArea" TargetFieldName="PlanArea" />
+            <FieldMapping FieldName="PlanStatusId" TargetFieldName="PlanStatusID" />
+            <FieldMapping FieldName="ProjectTypeId" TargetFieldName="ProjectTypeID" />
+            <FieldMapping FieldName="ResidentialPlotCount" TargetFieldName="ResidentialPlotCount" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+            <FieldMapping FieldName="YearId" TargetFieldName="YearID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:DataReportA04" TargetName="amanna:dbo:DataReportA04">
+          <FieldMappings>
+            <FieldMapping FieldName="AuthorityId" TargetFieldName="AuthorityID" />
+            <FieldMapping FieldName="CityId" TargetFieldName="CityID" />
+            <FieldMapping FieldName="CoveredAreaPercentage" TargetFieldName="CoveredAreaPercentage" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Indicator1" TargetFieldName="Indicator1" />
+            <FieldMapping FieldName="Indicator2" TargetFieldName="Indicator2" />
+            <FieldMapping FieldName="Indicator3" TargetFieldName="Indicator3" />
+            <FieldMapping FieldName="Indicator4" TargetFieldName="Indicator4" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NamedStreetsCount" TargetFieldName="NamedStreetsCount" />
+            <FieldMapping FieldName="NumberedUnitsCount" TargetFieldName="NumberedUnitsCount" />
+            <FieldMapping FieldName="NumberedUnitsPercentage" TargetFieldName="NumberedUnitsPercentage" />
+            <FieldMapping FieldName="PeriodId" TargetFieldName="PeriodID" />
+            <FieldMapping FieldName="ProjectStatusId" TargetFieldName="ProjectStatusID" />
+            <FieldMapping FieldName="TotalCoveredArea" TargetFieldName="TotalCoveredArea" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+            <FieldMapping FieldName="YearId" TargetFieldName="YearID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:DataReportA26" TargetName="amanna:dbo:DataReportA26">
+          <FieldMappings>
+            <FieldMapping FieldName="AuthorityId" TargetFieldName="AuthorityID" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="DiffPrevPlannedArea" TargetFieldName="DiffPrevPlannedArea" />
+            <FieldMapping FieldName="DiffPrevUsedArea" TargetFieldName="DiffPrevUsedArea" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Indicator1" TargetFieldName="Indicator1" />
+            <FieldMapping FieldName="Indicator2" TargetFieldName="Indicator2" />
+            <FieldMapping FieldName="Indicator3" TargetFieldName="Indicator3" />
+            <FieldMapping FieldName="Indicator4" TargetFieldName="Indicator4" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="OccupationTypeId" TargetFieldName="OccupationTypeID" />
+            <FieldMapping FieldName="PeriodId" TargetFieldName="PeriodID" />
+            <FieldMapping FieldName="PlannedWhiteArea" TargetFieldName="PlannedWhiteArea" />
+            <FieldMapping FieldName="SubAuthorityId" TargetFieldName="SubAuthorityId" />
+            <FieldMapping FieldName="UnplannedWhiteArea" TargetFieldName="UnplannedWhiteArea" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+            <FieldMapping FieldName="UsedArea" TargetFieldName="UsedArea" />
+            <FieldMapping FieldName="YearId" TargetFieldName="YearID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:dboSubYear" TargetName="amanna:dbo:SubYears">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="Name" TargetFieldName="Name" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:DepartmentAndAgency" TargetName="amanna:dbo:DepartmentAndAgencies">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="Level" TargetFieldName="Level" />
+            <FieldMapping FieldName="NameArabic" TargetFieldName="NameArabic" />
+            <FieldMapping FieldName="NameEnglish" TargetFieldName="NameEnglish" />
+            <FieldMapping FieldName="ParentId" TargetFieldName="ParentId" />
+            <FieldMapping FieldName="Slug" TargetFieldName="Slug" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:EfmigrationsHistory" TargetName="amanna:dbo:__EFMigrationsHistory">
+          <FieldMappings>
+            <FieldMapping FieldName="MigrationId" TargetFieldName="MigrationId" />
+            <FieldMapping FieldName="ProductVersion" TargetFieldName="ProductVersion" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubApprovedPlan" TargetName="amanna:dbo:SubApprovedPlan">
+          <FieldMappings>
+            <FieldMapping FieldName="Code" TargetFieldName="Code" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubAuthority" TargetName="amanna:dbo:SubAuthority">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubCity" TargetName="amanna:dbo:SubCity">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubHalfYear" TargetName="amanna:dbo:SubHalfYear">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedAt" TargetFieldName="CreatedAt" />
+            <FieldMapping FieldName="HalfYearId" TargetFieldName="HalfYearID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="HalfYearName" TargetFieldName="HalfYearName" />
+            <FieldMapping FieldName="IsActive" TargetFieldName="IsActive" />
+            <FieldMapping FieldName="YearId" TargetFieldName="YearID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubMonth" TargetName="amanna:dbo:SubMonth">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedAt" TargetFieldName="CreatedAt" />
+            <FieldMapping FieldName="IsActive" TargetFieldName="IsActive" />
+            <FieldMapping FieldName="MonthId" TargetFieldName="MonthID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="MonthName" TargetFieldName="MonthName" />
+            <FieldMapping FieldName="QuarterId" TargetFieldName="QuarterID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubOccupationType" TargetName="amanna:dbo:subOccupationTypes">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubPeriod" TargetName="amanna:dbo:SubPeriods">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubPlanApprovalAuthority" TargetName="amanna:dbo:SubPlanApprovalAuthority">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubPlanStatus" TargetName="amanna:dbo:SubPlanStatus">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubProjectStatus" TargetName="amanna:dbo:SubProjectStatus">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubProjectType" TargetName="amanna:dbo:SubProjectType">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DeletedDate" TargetFieldName="DeletedDate" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsDeleted" TargetFieldName="IsDeleted" />
+            <FieldMapping FieldName="NameAr" TargetFieldName="NameAr" />
+            <FieldMapping FieldName="NameEn" TargetFieldName="NameEn" />
+            <FieldMapping FieldName="UpdateedDate" TargetFieldName="UpdateedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubQuarter" TargetName="amanna:dbo:SubQuarter">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedAt" TargetFieldName="CreatedAt" />
+            <FieldMapping FieldName="HalfYearId" TargetFieldName="HalfYearID" />
+            <FieldMapping FieldName="IsActive" TargetFieldName="IsActive" />
+            <FieldMapping FieldName="QuarterId" TargetFieldName="QuarterID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="QuarterName" TargetFieldName="QuarterName" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:SubYear" TargetName="amanna:dbo:SubYear">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedAt" TargetFieldName="CreatedAt" />
+            <FieldMapping FieldName="IsActive" TargetFieldName="IsActive" />
+            <FieldMapping FieldName="YearId" TargetFieldName="YearID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="YearName" TargetFieldName="YearName" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName="haTable:TimeModel" TargetName="amanna:dbo:TimeModels">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedAt" TargetFieldName="CreatedAt" />
+            <FieldMapping FieldName="Flag" TargetFieldName="Flag" />
+            <FieldMapping FieldName="HalfYearId" TargetFieldName="HalfYearID" />
+            <FieldMapping FieldName="IsActive" TargetFieldName="IsActive" />
+            <FieldMapping FieldName="ModelId" TargetFieldName="ModelID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="ModelName" TargetFieldName="ModelName" />
+            <FieldMapping FieldName="MonthId" TargetFieldName="MonthID" />
+            <FieldMapping FieldName="QuarterId" TargetFieldName="QuarterID" />
+            <FieldMapping FieldName="UpdatedAt" TargetFieldName="UpdatedAt" />
+            <FieldMapping FieldName="YearId" TargetFieldName="YearID" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings />
+      <SPCallMappings />
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>
